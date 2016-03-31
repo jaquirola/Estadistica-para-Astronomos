@@ -1,2 +1,1 @@
-Este README 
-# Tarea1
+Tarea1
