@@ -5,7 +5,7 @@ from mpltools import style
 from mpltools import layout
 
 
-x = np.linspace(-9, 9)
+x = np.linspace(-9, 9, 1000)
 plt.plot(x, st.norm.pdf(x, 0, np.sqrt(1)), label = 'PDF de $\hat{\\theta}$', color = 'b', lw = float (2.0))
 plt.tick_params(
     axis='x',          # changes apply to the x-axis
@@ -22,7 +22,7 @@ plt.text(-1.4, 0.00, r'$\theta$', fontsize=15.0)
 plt.savefig('normal.eps')
 #plt.show()
 plt.close()
-x = np.linspace(-9, 9)
+x = np.linspace(-9, 9, 1000)
 plt.plot(x, st.norm.pdf(x, 0, np.sqrt(1)), label = 'PDF de $\hat{\\theta}$', color = 'b', lw = float (2.0))
 plt.tick_params(
     axis='x',          # changes apply to the x-axis
